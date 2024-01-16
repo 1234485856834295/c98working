@@ -1,0 +1,27 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid red;
+}
+#logo_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+
+.cameras{
+    border-width: 5px;
+    border-color: firebrick;
+    width: 200px;
+    height: 150px;
+    border-style: dotted;
+}

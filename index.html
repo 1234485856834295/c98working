@@ -1,0 +1,39 @@
+<html>
+    <head>
+       <title>Collage app</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body style="background-color: yellow;">
+    <div class="container">
+    <center>
+        <a href="" id="pic" download="markusselfies.png"></a>
+      <h1>Collage App</h1>
+      <hr>
+      <h4>After the popup appears please click allow</h4>
+      <h2>Say "selfie" for taking a selfie and making a collage</h2>
+      <br>
+      <textarea name="" id="voice_output" class="form-control" ></textarea>
+      <button onclick="start()">start</button>
+      <p>Press The start button to issue voice command</p>
+      <br>
+      <p>Your Webcam will display here</p>
+      <div class="cameras" id="camera"></div><br>
+      <p>Your Images Will Display here</p>
+      <div class="cameras" id="image1" ></div>
+      <br>
+      <div class="cameras" id="image2"></div>
+      <br>
+      <div class="cameras" id="image3"></div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
